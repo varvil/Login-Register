@@ -27,11 +27,6 @@ body {
     margin: auto;
 }
 
-.login__form label {
-    height: 10px;
-    margin-right: 6rem;
-}
-
 .login__form input {
     margin: auto;
     display: block;
@@ -40,7 +35,6 @@ body {
     border: 0;
     outline: none;
     font-size: 20px;
-    transition: padding 0.3s 0.2s ease;
 }
 
 .line {

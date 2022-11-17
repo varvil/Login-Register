@@ -20,7 +20,7 @@ const Login = () => {
             </form>
 
             <p className="description">
-                    Or login with
+                Or login with
             </p>
 
         <div className="social__container">
