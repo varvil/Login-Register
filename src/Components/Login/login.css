@@ -7,10 +7,9 @@ body {
 .login__container {
     margin: auto;
     margin-top: 10rem;
-    /* background: linear-gradient(315deg, #ffffff, #d7e1ec); */
     border-radius: 20px;
     width: 40%;
-    height: 500px;
+    height: 550px;
 }
 
 .login__title {
