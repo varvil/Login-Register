@@ -8,7 +8,6 @@ const Login = () => {
         <h1 className="login__title">
             Login
         </h1>
-
         <div className="login__section">
 
             <form className="login__form">
@@ -17,7 +16,7 @@ const Login = () => {
                  <br></br>
                 <input type="password" id='password' className="login__password" placeholder='Password'/>
                 <div className="line"></div>
-                <button className="login">Sign in</button>
+                <button className="login">Sign in</button> 
             </form>
 
             <p className="description">
@@ -35,22 +34,11 @@ const Login = () => {
                     <span class="tooltip">Twitter</span>
                     <span><i class="uil uil-twitter"></i></span>
                 </li>
-                <li class="icon instagram">
-                    <span class="tooltip">Instagram</span>
-                    <span><i class="uil uil-instagram"></i></span>
-                </li>
-                <li class="icon github">
-                    <span class="tooltip">Github</span>
-                    <span><i class="uil uil-github"></i></span>
-                </li>
             </ul>
             </div>
-
             <div className="register__section">
             Not a member?
-            <a href='/register' className="register">
-                    Register here
-                </a>
+            <a href="/register" className="register"> register here</a>
             </div>
         </div>
     </div>

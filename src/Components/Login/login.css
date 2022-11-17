@@ -6,10 +6,10 @@ body {
 
 .login__container {
     margin: auto;
-    margin-top: 25rem;
+    margin-top: 10rem;
     /* background: linear-gradient(315deg, #ffffff, #d7e1ec); */
     border-radius: 20px;
-    width: 20%;
+    width: 40%;
     height: 500px;
 }
 
@@ -100,9 +100,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    background: #1877F2;
+    color: white;
     cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 
 .socials .tooltip {
@@ -155,6 +155,10 @@ body {
 .socials .twitter:hover .tooltip::before {
     background: #7bb4ff;
     color: #ffffff;
+}
+
+.socials .twitter {
+    background: #7bb4ff
 }
 
 .socials .instagram:hover,
