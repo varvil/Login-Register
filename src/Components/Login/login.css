@@ -184,3 +184,23 @@ body {
     color: #1abc9c;
     transition: 0.5s;
 }
+
+
+@media screen and (max-width: 576px) {
+
+    .login__container {
+        margin: auto;
+        margin-top: 0;
+    }
+
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
+    .login__container {
+        margin: auto;
+        margin-top: 0;
+    }
+
+}

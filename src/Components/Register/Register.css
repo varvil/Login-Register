@@ -3,23 +3,27 @@
 body {
     margin: auto;
     transition: 0.5s;
+    animation: fadeInOut 1s linear 1 forwards;
 }
 
 .register__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     margin: auto;
     margin-top: 10rem;
-    background: #FFFFFF;
-    border-radius: 20px;
-    width: 58vh;
+    background: rgb(245, 245, 245);
+    border-radius: 30px;
+    width: 75vh;
     height: 500px;
 }
 
 .left__content {
     margin: auto;
-    float: left;
+    padding: 0;
+    margin-left: 0;
     width: 300px;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 30px 5px 5px 30px;
     background:linear-gradient(380deg,#1abc9c, #305e54);
 }
 
@@ -57,10 +61,9 @@ body {
 
 .right__content {
     margin: auto;
-    margin-top: 3rem;
-    float: right;
-    width: 440px;
+    width: 100%;
     height: 100%;
+    margin-top: 3rem;
 }
 
 .register__title2 {
@@ -77,13 +80,13 @@ body {
 }
 
 .register__input {
-    width: 70%;
+    width: 60%;
     margin: auto;
     display: block;
     margin-top: 20px;
     padding: 15px;
     border: 0;
-    background: #f8f8f8;
+    background: #FFFF;
 }
 
 .register__button {
@@ -101,4 +104,45 @@ body {
     transition: 0.5s;
     text-align: center;
     cursor: pointer;
+}
+
+@keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  /*BREAKING POINTS */
+
+@media screen and (max-width: 576px) {
+
+    .register__container {
+        display: block;
+        margin: auto;
+        width: 400px;
+        height: 80vh;
+        margin-top: 5rem;
+    }
+
+    .left__content {
+        text-align: center;
+        width: 100%;
+        height: 250px;
+        border-radius: 20px 20px 5px 5px;
+    }
+
+    .register__title {
+        padding: 15px;
+    }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+
 }

@@ -7,7 +7,6 @@ const Register = () => {
     <div className='register__container'>
 
       <div className="left__content">
-
         <h2 className="register__title">
           Allready have an account?
           </h2>
@@ -16,7 +15,7 @@ const Register = () => {
             Please login with your personal info
             </h3>
 
-          <a href="/" className='login'> Sign up</a>
+          <a href="/" className='login'> Sign in</a>
           </div>
 
         <div className="right__content">
