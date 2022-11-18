@@ -1,0 +1,29 @@
+
+.nav__container {
+    width: 100%;
+    height: 50px;
+    background: #1abc9c;
+    margin: auto;
+    line-height: 50px;
+}
+
+.nav__content {
+    display: flex;
+    margin-right: 15rem;
+    float: right;
+    gap: 20px;
+}
+
+.nav__content a {
+    color: #fff;
+    text-decoration: none;
+    margin: auto;
+}
+
+.nav__content a:hover {
+    color:black;
+}
+
+.nav__content i {
+    margin-right: 5px;
+}

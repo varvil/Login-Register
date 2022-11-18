@@ -1,5 +1,6 @@
 import React from 'react'
 import './login.css'
+import {Link} from 'react-router-dom';
 
 const Login = () => {
   return (
@@ -25,20 +26,20 @@ const Login = () => {
 
         <div className="social__container">
 
-            <ul class="socials">
-                <li class="icon facebook">
-                    <span class="tooltip">Facebook</span>
-                    <span><i class="uil uil-facebook-f"></i></span>
+            <ul className="socials">
+                <li className="icon facebook">
+                    <span className="tooltip">Facebook</span>
+                    <span><i className="uil uil-facebook-f"></i></span>
                 </li>
-                <li class="icon twitter">
-                    <span class="tooltip">Twitter</span>
-                    <span><i class="uil uil-twitter"></i></span>
+                <li className="icon twitter">
+                    <span className="tooltip">Twitter</span>
+                    <span><i className="uil uil-twitter"></i></span>
                 </li>
             </ul>
             </div>
             <div className="register__section">
             Not a member?
-            <a href="/register" className="register"> register here</a>
+            <Link to="/register" className="register"> register here </Link>
             </div>
         </div>
     </div>

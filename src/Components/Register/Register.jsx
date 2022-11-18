@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom';
 import './register.css'
 
 const Register = () => {
@@ -15,7 +16,7 @@ const Register = () => {
             Please login with your personal info
             </h3>
 
-          <a href="/" className='login'> Sign in</a>
+          <Link to='/login' className='login'> Sign in</Link>
           </div>
 
         <div className="right__content">
