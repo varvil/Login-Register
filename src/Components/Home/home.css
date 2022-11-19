@@ -5,25 +5,21 @@
 }
 
 .home__section {
-    margin: auto;
-    width: 143vh;
-    height: 60vh;
-    background: #f1f1f1;
-    border-radius: 0px 0px 15px 15px;
-    text-align: left;
+    display: grid;
+    grid-template-columns: 60ch auto;
+    justify-content: center;
 }
 
 .home__content {
     margin-left: 10rem;
-    width: 700px;
-    height: 540px;
+    height: 400px;
 }
 
 .home__description {
     margin: 0;
     font-family: 'Poppins';
     color: #1abc9c;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: lighter;
     padding-top: 10rem;
     margin-left: 8rem;
@@ -32,6 +28,7 @@
 .home__title {
     margin: 0;
     margin-left: 8rem;
+    font-size: 50px;
 }
 
 .home__search {

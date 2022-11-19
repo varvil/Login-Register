@@ -3,7 +3,6 @@ import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
 import Register from "./Components/Register/Register";
 import Nopage from "./Components/Nopage/Nopage";
-import Footer from "./Components/Footer/Footer";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 
@@ -19,8 +18,6 @@ function App() {
         <Route path="register" element={<Register />} />
         <Route path="*" element={<Nopage />} />
       </Routes>
-
-      <Footer />
     </>
   );
 }
